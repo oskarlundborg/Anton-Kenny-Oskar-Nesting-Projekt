@@ -1,0 +1,107 @@
+.index--main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.employee-container {
+    max-width: 916px;
+    width: 100%;
+    min-height: 614px;
+    border-radius: 24px;
+    background-color: #EF5B53;
+    margin-top: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.employee-container-top {
+    max-width: 840px;
+    width: 100%;
+    min-height: 232px;
+
+    background-color: cornflowerblue;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.employee-name-title {
+    max-width: 160px;
+    width: 100%;
+    min-height: 68px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 22px;
+
+    background-color: aliceblue;
+}
+.employee-name-title h4 {
+    max-width: 92px;
+    width: 100%;
+    min-height: 15px;
+    margin-left: 8px;
+    font-size: 12px;
+    letter-spacing: -0.025em;
+
+    color: #292930;
+}
+.employee-name-title h2 {
+    max-width: 92px;
+    width: 100%;
+    min-height: 34px;
+    margin-left: 8px;
+    font-size: 24px;
+    letter-spacing: -0.045em;
+
+    color: #292930;
+}
+
+.employee-container-bottom {
+    max-width: 840px;
+    width: 100%;
+    min-height: 300px;
+
+    background-color: bisque;
+}
+
+.employee-socials {
+    max-width: 420px;
+    width: 100%;
+    min-height: 24px;
+    display: flex;
+    justify-content: space-between;
+
+    align-self:flex-end;
+
+    background-color: white;
+}
+
+.employee-socials p {
+    max-width: 80px;
+    width: 100%;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+
+    /* background-color: bisque; */
+}
+
+.employee-social-links {
+    max-width: 324px;
+    width: 100%;
+    min-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* background-color: cadetblue; */
+}
