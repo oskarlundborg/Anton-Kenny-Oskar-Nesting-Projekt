@@ -1,0 +1,108 @@
+/*General Styles*/
+    * {
+        margin: 0px;
+        padding: 0px;
+    }    
+
+    .body {
+        width: 100%;
+        background-image: url(../images/main/wood\ background.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+    }
+
+    /*Logo*/
+    .logo {
+        font-family: Righteous;
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.24);
+    }
+    .logo--satisfy--span {
+        font-family: Satisfy !important;
+        text-decoration: underline !important;
+    }
+
+    /*Links*/
+    a {
+        display: block;
+    }
+    a:link, a:visited {
+        color: #111111;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      a:link:active, a:visited:active {
+        color: #111111;
+      }
+    
+    /*Buttons*/
+    
+    .account--btn {
+        border: none;
+        border-radius: 10px;
+        background-color: #111111;
+        color: #eee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        padding-top: 5px;
+    }
+
+/*Header*/
+    
+
+    .header {
+        width: 100%;
+        display: flex;
+        min-height: 150px;
+        background-image:  linear-gradient(0deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 100%), url(../images/main/banner.jpg) ;
+        background-size: cover;
+        box-shadow: rgba(0, 0, 0, 0.534) 0px 5px 15px;
+        top: 0;
+        position: -webkit-sticky;
+        position: sticky;
+    }
+
+   
+
+    .header--menu {
+        max-width: 1024px;
+        width: 100%;
+    }
+
+    .header--logo--link {
+        max-width: 205px;
+        margin: 20px;
+    }
+
+    .header--logo {
+        font-size: 50px;
+    }
+
+/*Main*/
+
+    .index--main {
+        max-width: 1024px;
+        width: 95%;
+        min-height: 1700px;
+        margin-top: 50px;
+        background-color: rgba(255, 255, 255, 0.7);
+        box-shadow: rgba(0, 0, 0, 0.534) 0px 5px 25px;
+    }
+
+
+/*Footer*/
+
+    .footer {
+        max-width: 1024px;
+        width: 95%;
+        min-height: 130px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0.7);
+        box-shadow: rgba(0, 0, 0, 0.534) 0px 5px 25px;
+    }
