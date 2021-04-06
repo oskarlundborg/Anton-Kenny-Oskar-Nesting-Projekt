@@ -23,8 +23,8 @@
     max-width: 840px;
     width: 100%;
     min-height: 232px;
-
-    background-color: cornflowerblue;
+    border-radius: 20px;
+    /* background-color: cornflowerblue; */
 
     display: flex;
     justify-content: flex-start;
@@ -65,18 +65,12 @@
     color: #292930;
 }
 
-.employee-container-bottom {
-    max-width: 840px;
-    width: 100%;
-    min-height: 300px;
-
-    background-color: bisque;
-}
 
 .employee-socials {
     max-width: 420px;
     width: 100%;
     min-height: 24px;
+    border-radius: 20px;
     display: flex;
     justify-content: space-between;
 
@@ -89,6 +83,7 @@
     max-width: 80px;
     width: 100%;
     min-height: 20px;
+    margin-left: 5px;
     display: flex;
     align-items: center;
 
@@ -96,12 +91,53 @@
 }
 
 .employee-social-links {
-    max-width: 324px;
+    max-width: 300px;
     width: 100%;
     min-height: 20px;
+    margin-right: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     /* background-color: cadetblue; */
+}
+
+
+.employee-container-bottom {
+    max-width: 840px;
+    width: 100%;
+    min-height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: -0.025em;
+    color: #999FAE;
+
+    
+    background-color: white;
+}
+
+.employee-information {
+    max-width: 770px;
+    width: 100%;
+    min-height: 145px;
+
+    /* background-color: wheat; */
+}
+
+.employee-extras {
+    max-width: 770px;
+    width: 100%;
+    min-height: 84px;
+
+    /* background-color: steelblue; */
 }
