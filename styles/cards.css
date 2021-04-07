@@ -1,0 +1,119 @@
+main {
+    max-width: 1024px;
+    width: 100%;
+    min-height: 724px;
+    background-color: aliceblue;
+}
+
+.employee--card {
+    max-width: 275px;
+    width: 100%;
+    min-height: 612px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.employee--profile {
+    max-width: 260px;
+    width: 100%;
+    min-height: 260px;
+    border-radius: 12px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.employee--card--details {
+    max-width: 260px;
+    width: 100%;
+    border-radius: 12px;
+    margin: 8px;
+    min-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.employee--card--head {
+    max-width: 92px;
+    width: 100%;
+    min-height: 50px;
+    margin-top:25px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: turquoise; */
+}
+
+.employee--card--head p{
+    margin:0;
+    padding:0;
+}
+
+.employee--card--title {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 99.33%;
+    letter-spacing: -0.025em;
+    
+    color: #292930;
+    /* background-color: tomato; */
+}
+
+.employee--card--name {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: -0.045em;
+    
+    color: #292930;
+    /* background-color: teal; */
+}
+
+.employee--card--information {
+    max-width: 196px;
+    width: 100%;
+    min-height: 140px;
+    margin-left: 20px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.025em;
+    color: #999FAE;
+
+    /* background-color: wheat; */
+}
+
+.employee--learn--more {
+    max-width: 104px;
+    width: 100%;
+    min-height: 50px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellowgreen; */
+}
+.employee--learn--more a {
+    padding:0;
+    margin:0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: -0.045em;
+    color: #292930;
+}
