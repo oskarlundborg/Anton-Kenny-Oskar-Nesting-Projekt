@@ -1,19 +1,74 @@
 main {
     max-width: 1024px;
     width: 100%;
-    min-height: 724px;
-    background-color: aliceblue;
+}
+
+.about--info--section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    border-bottom: solid #2e2e2e;
+}
+
+.about--info--title {
+    font-size: 30px;
+    width: 60% !important;
+}
+
+.employee--info--img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 40px;
+    box-shadow: #111111 0px 0px 3px;
+    background-image: url(../images/index/supplies.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card--section {
+    width: 100%;
+    margin: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: space-between;
+    border-bottom: solid #2e2e2e;
 }
 
 .employee--card {
     max-width: 275px;
-    width: 100%;
+    width: 25%;
     min-height: 612px;
+    border-radius: 12px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    box-shadow: #111111 0px 0px 3px;
 }
+.img--goran {
+    background-image: url(../images/employees/management/göran.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img--karin {
+    background-image: url(../images/employees/karin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img--sandra {
+    background-image: url(../images/employees/sandra.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*width="220" height="220" style="border-radius: 8px;*/
 
 .employee--profile {
     max-width: 260px;
@@ -116,4 +171,18 @@ main {
     line-height: 110%;
     letter-spacing: -0.045em;
     color: #292930;
+}
+
+.employee--info {
+    font-family: montserrat;
+    color: #2e2e2e;
+    margin: 50px;
+    margin-top: 0px;
+    width: 75%;
+}
+
+.employee--info--title {
+    font-size: 35px;
+    margin-bottom: 20px;
+    width: 100%;
 }

@@ -10,13 +10,37 @@
     min-height: 614px;
     border-radius: 12px;
     background-color: #EF5B53;
-    margin-top: 25px;
+    margin: 25px;
+    box-shadow: 0px 0px 3px #111111;
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
+}
+
+.employee-img-div {
+    width:220px; 
+    height:220px; 
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px #111111;
+}
+
+.img--karin {
+    background-image: url(../images/employees/karin.png);
+    background-position: center;
+    background-size: cover;
+}
+.img--goran {
+    background-image: url(../images/employees/management/göran.png);
+    background-position: center;
+    background-size: cover;
+}
+.img--sandra {
+    background-image: url(../images/employees/sandra.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .employee-container-top {
